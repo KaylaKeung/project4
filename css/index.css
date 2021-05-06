@@ -336,7 +336,7 @@ body {
     width: auto;
   }
   #activeBox > div {
-    margin: 0 4px;
+    margin: 0 3px;
     flex-shrink: 0;
   }
 }
@@ -354,7 +354,4 @@ body {
     height: 60vh;
   }
 }
-.rightdirection {
-  height: 10px;
-  width: 6px;
-}
+
