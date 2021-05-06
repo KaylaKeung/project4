@@ -258,6 +258,7 @@ body {
     align-items: center;
     line-height: 15px;
   }
+  
   .activeBoxWarp {
     width: 80%;
     height: 50px;
@@ -334,7 +335,10 @@ body {
     height: 10px;
     width: auto;
   }
-
+  #activeBox > div {
+    margin: 0 4px;
+    flex-shrink: 0;
+  }
 }
 @media screen and (min-width: 750px) {
   .activeBoxWarp {
